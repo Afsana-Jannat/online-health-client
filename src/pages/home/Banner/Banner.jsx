@@ -4,6 +4,13 @@ const Banner = () => {
         <div className="carousel mt-4
          lg:h-[600px] md:h-[400px] w-full">
             <div id="slide1" className="carousel-item relative w-full">
+                <div className=" absolute top-[20%] left-[20%]">
+                    <h1 className="text-black font-bold text-3xl">We Provide
+                        <span className="text-blue-600"> Medical </span> Services That You can
+                        <br /> <span className="text-blue-600"> Trust!</span></h1>
+                    <p className="text-black mt-2">The Doctors is a 2016 South Korean medical drama starring Kim Rae-won and Park Shin-hye.
+                        <br /> It aired on SBS TV from June 20 to August 23, 2016, every Monday ...</p>
+                </div>
                 <img src="https://img.freepik.com/free-photo/surprised-doctor-physician-pointing-fingers-left-looking-logo-banner-showing-clinic-advertise_1258-127424.jpg?w=1380&t=st=1705657634~exp=1705658234~hmac=2f07433f10d2c8afd19913863fb6e1dba7b3b22d5bb2d1932bbd9548fe186ab7"
                     className="w-full object-cover h-full" />
                 <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

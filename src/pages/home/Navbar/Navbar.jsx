@@ -5,6 +5,7 @@ const Navbar = () => {
     const navOptions = <>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/doctors">Doctors</Link></li>
+        <li><Link to="/doctorprofile">Doctor Profile</Link></li>
     </>
     return (
         <div className='max-w-screen-xl mx-auto'>
