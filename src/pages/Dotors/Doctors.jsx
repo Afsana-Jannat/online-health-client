@@ -1,3 +1,4 @@
+import Footer from "../footer/Footer";
 
 
 const Doctors = () => {
@@ -65,15 +66,22 @@ const Doctors = () => {
                     </div>
                 </div>
             </div>
-            <div className="hero mt-12 h-[200px] md:h-[320px] bg-[#EDF2FF]">
+            <div className="hero mt-12 py-10 bg-[#EDF2FF]">
                 <div className="hero-content text-center">
                     <div className="max-w-md">
-                        <h1 className="text-5xl font-bold">Hello there</h1>
-                        <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button className="btn btn-primary">Get Started</button>
+                        <h1 className="text-2xl text-black">
+                            Sign up for newsletter</h1>
+                        <p className="py-6 text-slate-900">Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu,homero alterum.</p>
+                        <div className="flex flex-col md:flex-row justify-center gap-4">
+                            <input type="email" placeholder="email" className="input input-bordered bg-white" required />
+                            <div>
+                                <button className="btn bg-[#1A76D1]">Subscribe</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <Footer></Footer>
         </>
     );
 };
